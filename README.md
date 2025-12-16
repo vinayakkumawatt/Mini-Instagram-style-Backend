@@ -1,31 +1,41 @@
-# Mini-Instagram-style-Backend
-This  Mini Instagram clone built using Django REST Framework (Backend) and Vanilla JavaScript + HTML + CSS (Frontend).
-To run the whole project we need to two steps in terminal
+# Mini Instagram Style Backend
 
-1. We have to run the backend of the project using terminal:
-> py manage.py runserver
+This is a Mini Instagram clone built using **Django REST Framework** for the backend and **Vanilla JavaScript, HTML, and CSS** for the frontend.  
+The project implements core social media features such as authentication, posting images via URLs, likes, comments, follow/unfollow system, profile pages, search functionality, and an admin panel.
+---
+## Features
+- User authentication
+- Create posts with image URL and caption
+- Like and comment on posts
+- Follow and unfollow users
+- User profile pages
+- Search users
+- Admin panel for managing data
 
-This will open in
+## Requirements
+- Python
+- Django
+- Django REST Framework
+- Web browser
+
+## How to Run the Project
+
+### 1. Run Backend Server
+Open a terminal and run:
+py manage.py runserver
+
+Backend will start at:
 http://127.0.0.1:8000/
 
-2. Then in another terminal we need to run the frontend so keep running first terminal and add another terminal in which we have to change directory then write the second command
-> cd frontend
+### 2. Run frontend server
+Open another terminal (keep backend running):
+cd frontend
+python -m http.server 3000
 
-> python -m http.server 3000
+Frontend will open at:
+http://127.0.0.1:3000/
 
-Now front end will open in 
-http://127.0.0.1:3000
-From here all the things work and the backend server will handle the api and backend logics and it is main page to see the mini instagram.
-
-To open admin panel :
+## Admin Panel
+Admin panel is available at:
 http://127.0.0.1:8000/admin
-
-username: vinayak
-password: root
-
-A default instagram id exists with content: 
-username: vinayak
-password: root
-
-This  Mini Instagram clone built using Django REST Framework (Backend) and Vanilla JavaScript + HTML + CSS (Frontend).
-This project implements core social media features such as authentication, posting images via URLs, likes, comments, follow system, profile pages, and search functionality. Along with this prject have the admin panel functionality to perform admin level tasks.
+(username and password is attachd in file named as user)
