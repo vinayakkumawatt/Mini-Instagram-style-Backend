@@ -38,4 +38,4 @@ http://127.0.0.1:3000/
 ## Admin Panel
 Admin panel is available at:
 http://127.0.0.1:8000/admin
-(username and password is attachd in file named as user)
+(username and password is attached in file named as user)
